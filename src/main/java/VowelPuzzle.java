@@ -1,10 +1,9 @@
-import java.util.ArrayList;
-import java.util.HashMap;
+
 
 public class VowelPuzzle {
 
   public String makePuzzle(String userInput) {
-    userInput = userInput.replaceAll("a", "-");
+    userInput = userInput.replaceAll("[ao]", "-");
     return userInput;
   }
 }

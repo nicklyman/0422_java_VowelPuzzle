@@ -1,7 +1,6 @@
 import org.junit.*;
 import static org.junit.Assert.*;
-import java.util.ArrayList;
-import java.util.HashMap;
+
 
 public class VowelPuzzleTest {
 
@@ -11,16 +10,10 @@ public class VowelPuzzleTest {
     String expected = "-";
     assertEquals(expected, testLetters.makePuzzle("a"));
   }
-  // @Test
-  // public void makePuzzle_returnsConsonantAsConsonant_consonant() {
-  //   VowelPuzzle testLetters = new VowelPuzzle();
-  //   String expected = "b";
-  //   assertEquals(expected, testLetters.makePuzzle("b"));
-  // }
-  // @Test
-  // public void makePuzzle_returnsWordWithVowelsAndConsonants_dashesAndConsonants() {
-  //   VowelPuzzle testLetters = new VowelPuzzle();
-  //   String expected = "d-g";
-  //   assertEquals(expected, testLetters.makePuzzle("dog"));
-  // }
+  @Test
+  public void makePuzzle_returnsWordWithVowelsAndConsonants_dashesAndConsonants() {
+    VowelPuzzle testLetters = new VowelPuzzle();
+    String expected = "d-g";
+    assertEquals(expected, testLetters.makePuzzle("dog"));
+  }
 }
