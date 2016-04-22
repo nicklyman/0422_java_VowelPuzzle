@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="VowelPuzzleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:57:13" hostname="epicodus-79.local" time="0.001">
+<testsuite name="VowelPuzzleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T18:23:25" hostname="epicodus-79.local" time="0.001">
   <properties/>
   <testcase name="makePuzzle_returnsDashForVowel_dash" classname="VowelPuzzleTest" time="0.001"/>
-  <testcase name="makePuzzle_returnsConsonantAsConsonant_consonant" classname="VowelPuzzleTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
