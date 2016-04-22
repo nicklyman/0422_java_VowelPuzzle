@@ -22,4 +22,10 @@ public class VowelPuzzleTest {
     String expected = "th- tr--s -r- t-ll";
     assertEquals(expected, testLetters.makePuzzle("the trees are tall"));
   }
+  @Test
+  public void makePuzzle_returnsDashForCapitalVowel_dash() {
+    VowelPuzzle testLetters = new VowelPuzzle();
+    String expected = "-";
+    assertEquals(expected, testLetters.makePuzzle("A"));
+  }
 }
