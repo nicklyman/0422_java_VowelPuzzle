@@ -16,9 +16,16 @@ public class App {
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
 
-    get("/results", (request, response) -> {
+    post("/results", (request, response) -> {
       Map<String, Object> model = new HashMap<String, Object>();
       model.put("template", "templates/results.vtl");
+
+      String inputtedStringForPuzzle = request.queryParams("userInput");
+      VowelPuzzle newVowelPuzzle = new VowelPuzzle();
+      String results = newVowelPuzzle.makePuzzle(inputtedStringForPuzzle);
+
+      model.put("finalPuzzle", results);
+
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
   }
