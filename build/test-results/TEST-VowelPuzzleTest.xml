@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="VowelPuzzleTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-04-22T19:49:21" hostname="epicodus-79.local" time="0.002">
+<testsuite name="VowelPuzzleTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-04-22T22:03:47" hostname="epicodus-79.local" time="0.0">
   <properties/>
-  <testcase name="makePuzzle_returnsMultipleWordsWithVowelsAndConsonants_dashesAndConsonantsAndSpaces" classname="VowelPuzzleTest" time="0.002"/>
+  <testcase name="makePuzzle_returnsMultipleWordsWithVowelsAndConsonants_dashesAndConsonantsAndSpaces" classname="VowelPuzzleTest" time="0.0"/>
   <testcase name="makePuzzle_returnsDashForVowel_dash" classname="VowelPuzzleTest" time="0.0"/>
   <testcase name="makePuzzle_returnsWordWithVowelsAndConsonants_dashesAndConsonants" classname="VowelPuzzleTest" time="0.0"/>
   <testcase name="makePuzzle_returnsDashForCapitalVowel_dash" classname="VowelPuzzleTest" time="0.0"/>
