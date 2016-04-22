@@ -1,0 +1,22 @@
+body {
+  font-family: monospace;
+  text-align: center;
+  font-size: 36pt;
+}
+
+h1 {
+  color: red;
+}
+
+#userInput {
+  font-size: 36pt;
+  font-family: monospace;
+  border-width: 5px;
+}
+
+.btn {
+  font-size: 24pt;
+  background-color: red;
+  font-family: monospace;
+  font-weight: bold;
+}

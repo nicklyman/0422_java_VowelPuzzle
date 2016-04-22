@@ -1,5 +1,3 @@
-
-
 public class VowelPuzzle {
 
   public String makePuzzle(String userWordInput) {
